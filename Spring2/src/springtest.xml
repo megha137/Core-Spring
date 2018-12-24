@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+
+
+<bean id ="prod1" class = "com.beans.Product" >
+	<property name="prodId" value="1001" />
+	<property name="prodPrice" value="2000" />
+	<property name="prodName" value="Table" />
+</bean>
+
+
+
+</beans>
